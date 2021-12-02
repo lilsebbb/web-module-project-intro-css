@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+a{
+    text-decoration: none;
+
+}
+a:hover{
+    transition-duration: 2s;
+    color: black;
+    background-color: teal;
+}
+.nav1{
+    color:white;
+    background-color: #FF764E;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+}
+.nav2{
+    color:white;
+    background-color: #5ED3EB;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+}
+.nav3{
+    color:white;
+    background-color: #FFCD69;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+}
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: xx-large;
+    letter-spacing: .25rem;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+.roundImg {
+    border-radius: 100%;
+    width:10rem;
+    
+}
+.right{
+    width: 60%;
+    padding-top: 1rem;
+    align-items: center;
+    text-align: center;
+}
+.p2{
+    margin:0 15%;
+}
+.body{
+    color: white;
+    text-align: center;
+    background-color: #DDB9A3;
+    padding: 1.5rem 1rem;
+    margin: 0 5%;
+}
+.midImg{
+    align-items: center;
+    text-align: center;
+    padding:3rem 35%;
+}
+.footer{
+    width:90%;
+    align-items: center;
+    text-align: center;
+}
